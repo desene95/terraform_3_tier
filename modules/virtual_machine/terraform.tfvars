@@ -1,0 +1,11 @@
+web_host_name = "web-server"
+app_host_name = "app-server"
+address_space = ["10.90.0.0/21"]
+appsubnetcidr =["10.90.2.0/24"]
+websubnetcidr = ["10.90.1.0/24"]
+dbsubnetcidr = ["10.90.3.0/24"]
+resource_group_name = ["three-tier"]
+name = ["dame-stack"]
+virtual_network_name = "test-vnet"
+app_nic = "app-nic"
+web_nic = "web-nic"
